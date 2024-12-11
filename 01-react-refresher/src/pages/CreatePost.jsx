@@ -1,4 +1,4 @@
-import { Form, Navigate, redirect } from "react-router";
+import { Form, redirect } from "react-router";
 
 import Modal from "../components/Modal";
 
