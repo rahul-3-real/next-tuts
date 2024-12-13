@@ -11,6 +11,11 @@ export const getMeals = () => {
   return db.prepare("SELECT * FROM meals").all();
 };
 
+// * Get Detail Meal
+export const getDetailMeal = (slug) => {
+  return db.prepare("SELECT * FROM meals WHERE slug =?").get(slug);
+};
+
 // * Save Meal
 export const saveMeal = async (meal) => {
   meal.slug = slugify(meal.title, { lower: true });
