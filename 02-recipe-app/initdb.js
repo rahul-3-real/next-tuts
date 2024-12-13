@@ -5,7 +5,7 @@ const dummyMeals = [
   {
     title: "Burger",
     slug: "burger",
-    image: "burger.jpg",
+    image: "/images/burger.jpg",
     summary:
       "A mouth-watering burger with a juicy beef patty and melted cheese, served in a soft bun.",
     instructions: `
@@ -27,7 +27,7 @@ const dummyMeals = [
   {
     title: "Chicken Korma",
     slug: "chicken-korma",
-    image: "chicken-korma.jpg",
+    image: "/images/chicken-korma.jpg",
     summary:
       "Looking for a Chicken Korma recipe that's the real deal? This recipe is made in the traditional Pakistani and North Indian way but without the fuss.",
     instructions: `
@@ -51,7 +51,7 @@ const dummyMeals = [
   {
     title: "Ramen",
     slug: "ramen",
-    image: "ramen.jpg",
+    image: "/images/ramen.jpg",
     summary:
       "Take the usual ramen up a notch with this quick homemade ramen. Fresh veggies and herbs make this extra delicious, healthy, and cozy!",
     instructions: `
@@ -71,7 +71,7 @@ const dummyMeals = [
   {
     title: "Pho",
     slug: "pho",
-    image: "pho.jpg",
+    image: "/images/pho.jpg",
     summary:
       "Experience the magic of one of the greatest noodle soups in the world with this easy to follow traditional Vietnamese Pho recipe!",
     instructions: `

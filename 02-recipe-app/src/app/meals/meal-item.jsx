@@ -12,7 +12,7 @@ const MealItem = ({ meals }) => {
                 href={`/meals/${meal.slug}`}
                 className="block relative w-full h-56 overflow-hidden mb-5"
               >
-                <Image src={`/images/${meal.image}`} alt={meal.title} fill />
+                <Image src={`${meal.image}`} alt={meal.title} fill />
               </Link>
               <h5 className="text-white text-2xl font-serif mb-3">
                 <Link href={`/meals/${meal.slug}`} className="block">

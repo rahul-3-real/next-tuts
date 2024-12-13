@@ -2,6 +2,7 @@ import { Suspense } from "react";
 
 import { getMeals } from "@/libs/meals";
 import MealItem from "./meal-item";
+import Header from "./header";
 
 export const metadata = {
   title: "All Meals",
@@ -14,6 +15,7 @@ const Meals = () => {
   return (
     <section className="py-24">
       <div className="container mx-auto">
+        <Header />
         <Suspense fallback={<p>Fetching meals...</p>}>
           <MealItem meals={meals} />
         </Suspense>
