@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Community",
+  description: "Browse the delicious meals shared by our vibrant community.",
+};
+
 const Community = () => {
   return (
     <section className="py-24">
